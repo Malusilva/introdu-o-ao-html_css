@@ -1,0 +1,119 @@
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: rgb(5, 5, 5);
+        background-image: url("https://wallup.net/wp-content/uploads/2019/09/08/188728-flames-ninjas-naruto-shippuden-anime-boys-uzumaki-naruto-748x421.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #f59797;
+    }
+
+    .menu{
+        list-style:none;
+        border:1px solid #c0c0c0;
+        float:left;
+    }
+
+     .menu li{
+        position:relative;
+        float:left;
+        border-right:1px solid #fefbfb opacity 0.5;
+    }
+
+    .menu li a{color:rgb(255, 0, 0); text-decoration:none; padding:5px 10px; display:block;}
+
+    .menu li a:hover{
+    background:rgb(110, 108, 108) opacity 0.1;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+    }
+
+    .menu li  ul{
+        position:absolute;
+        top:25px;
+        left:0;
+        background-color:rgb(249, 247, 247) opacity: 0.5;
+        display:none;
+    }
+
+    .menu li:hover ul, .menu li.over ul{display:block;}0
+    .menu li ul li{
+        border:1px solid #c0c0c0;
+        display:block;
+        width:150px;
+    }
+
+    .resumo{
+        color: #ff5e00;
+        font-size: 50px;
+    }
+
+    .img2{
+        width: 500px;
+    }
+
+    .texto{
+        color: #fcfcfc;
+        font-size: 16px;
+    }
+
+    
+    a:link, a:visited{
+        color: #ff5e00;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+    
+    #wrap{
+        width: 800px;
+        margin: auto;
+        padding: 10px 20px;
+    }
+    
+    #form{
+       color: #fcfcfc; 
+    }
+    header nav ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    header nav ul li{
+        display: inline-block;
+        margin-right: 10px;    
+    }
+    header nav ul li a{
+        
+        font-size: 18px;
+    }
+    
+    #content{
+        float: left;
+        width: 660px;
+    }
+    
+    footer{
+        margin-top: 25%;
+        background: #ffa53d;
+        clear: both;
+    }
+    label,input[type=submit], input[type=text], textarea{
+        display: block;
+    }
+    
+    input[type="submit"]{
+        background: #c2bebe;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: 0;
+    
+    }
+    input[type="submit"]:hover{
+        background: rgb(255, 143, 15);
+    }
